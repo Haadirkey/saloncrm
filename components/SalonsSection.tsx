@@ -1,4 +1,4 @@
-'use client'
+git'use client'
 
 import { motion } from 'framer-motion'
 import { useState } from 'react'
@@ -9,12 +9,12 @@ export default function SalonsSection() {
   const salons = [
     {
       id: 1,
-      name: 'Saxarla Skincare & Spa',
+      name: 'Fahman Naaleeye',
       rating: 4.8,
       reviews: 320,
       services: 18,
       products: 100,
-      locations: ['Kilimani, Nairobi', 'Hodan, Mogadishu'],
+      locations: ['Kilimani, Nairobi'],
       closingTime: '8:30 pm',
       verified: true,
       isOpen: true,
