@@ -1,4 +1,4 @@
-git'use client'
+'use client'
 
 import { motion } from 'framer-motion'
 import { useState } from 'react'
@@ -14,7 +14,7 @@ export default function SalonsSection() {
       reviews: 320,
       services: 18,
       products: 100,
-      locations: ['Kilimani, Nairobi'],
+      locations: ['Kilimani, Nairobi',],
       closingTime: '8:30 pm',
       verified: true,
       isOpen: true,
